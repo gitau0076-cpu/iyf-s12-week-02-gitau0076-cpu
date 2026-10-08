@@ -1,9 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+/*  Custom Variables Type Scale */
+:root {
+  --font-heading: 'Poppins' , sans-serif;
+  --font-body: 'Open Sans' , sans-serif;
+}
+/* Type Scale */
+:root {
+    --font-xs: 0.75rem;    /* 12px */
+    --font-sm: 0.875rem;   /* 14px */
+    --font-base: 1rem;     /* 16px */
+    --font-lg: 1.125rem;   /* 18px */
+    --font-xl: 1.25rem;    /* 20px */
+    --font-2xl: 1.5rem;    /* 24px */
+    --font-3xl: 1.875rem;  /* 30px */
+    --font-4xl: 2.25rem;   /* 36px */
 }
 /* Set base typography */
 body {
@@ -18,26 +34,29 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: 0.75rem;
 }
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.5rem(--font-4xl) ;
     font-weight: 700;
 }
 h2 {
-    font-size: 2rem ;
+    font-size: 2rem(--font-3xl);
     font-weight: 700;
 }
 h3 {
-    font-size: 1.75rem;
+    font-size: 1.75rem(--font-2xl);
     font-weight:600 ;
 }
 h4 {
-    font-size: 1.5rem;
+    font-size: 1.5rem(--font-xl);
     font-weight: 500;
 }
 h5 {
-    font-size: 1.25rem;
+    font-size: 1.25rem(--font-lg);
     font-weight: 400;
 }
 h6 {
-    font-size: 1rem;
+    font-size: 1rem(--font-base);
     font-weight: 200;
+}
+small, .text-sm {
+    font-size: (--font-sm)
 }
