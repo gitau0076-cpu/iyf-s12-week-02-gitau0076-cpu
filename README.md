@@ -28,14 +28,10 @@ Brief description of what you built and why.
    Run `npm install` then `npm start`
 
 ## Lessons Learned
-What did you learn while building this project?
-
+- CSS Flexbox & Layout Centering. Learned how to use display: flex; along with align-items: center and justify-content: center to position text content cleanly over full-screen backgrounds.  
+- HTML Semantic Tags & Links.  Learned how to build structured footers using semantic elements (<footer...>, <ul>, <li>, <a>).
+- Responsive Web Design Fundamentals. Started implementing Mobile-First Responsive Design using CSS Grid (display: grid) and grid-template-columns to break content cleanly across screen sizes.  
 ## Challenges Faced
-What problems did you encounter and how did you solve them?
-
-
-## Screenshots (optional)
-![Screenshot description](path/to/screenshot.png)
-
-## Live Demo (if deployed)
-[View Live Demo](https://your-deployed-url.com)
+- HTML Entity Typos.  Typing special characters like &copy; incorrectly 
+- HTML Syntax Duplication & Closures. Duplicating text content outside of opening/closing tags
+- Understanding Browser Auto-Detection vs. Anchor Tags. Confusion over why an email address displayed visual link traits without explicit anchor formatting.  
