@@ -18,6 +18,8 @@ Brief description of what you built and why.
 - Feature 1
 - Feature 2
 - Feature 3
+## Setup
+<link rel="stylesheet" href="styles.css">
 
 ## How to Run
 1. Clone this repository
