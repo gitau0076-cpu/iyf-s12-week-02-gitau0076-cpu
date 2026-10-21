@@ -29,9 +29,9 @@ Brief description of what you built and why.
 
 ## Lessons Learned
 - CSS Flexbox & Layout Centering. Learned how to use display: flex; along with align-items: center and justify-content: center to position text content cleanly over full-screen backgrounds.  
-- HTML Semantic Tags & Links.  Learned how to build structured footers using semantic elements (<footer...>, <ul>, <li>, <a>).
+- HTML Semantic Tags & Links.  Learned how to build structured footers using semantic elements (`<footer...>, <ul>, <li>, <a>`).
 - Responsive Web Design Fundamentals. Started implementing Mobile-First Responsive Design using CSS Grid (display: grid) and grid-template-columns to break content cleanly across screen sizes.  
 ## Challenges Faced
-- HTML Entity Typos.  Typing special characters like &copy; incorrectly 
+- HTML Entity Typos.  Typing special characters like `&copy;` incorrectly 
 - HTML Syntax Duplication & Closures. Duplicating text content outside of opening/closing tags
 - Understanding Browser Auto-Detection vs. Anchor Tags. Confusion over why an email address displayed visual link traits without explicit anchor formatting.  
