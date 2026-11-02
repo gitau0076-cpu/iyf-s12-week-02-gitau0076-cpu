@@ -7,7 +7,7 @@ A collection of HTML and CSS exercises exploring typography, color, the CSS box 
 
 ## Screenshot
 
-[Project screenshot](./images/projectscreenshot.JPG)
+[Project screenshot](./images/project%20screenshot.JPG)
 
 ## Features
 
