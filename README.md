@@ -1,66 +1,80 @@
 # Florence Gitau — Week 2 CSS Mastery
 
-A collection of HTML and CSS exercises exploring typography, color, the CSS box model, Flexbox, Grid, and responsive layout. This project helped me practice applying CSS concepts to small, focused page examples.
+A collection of HTML and CSS exercises exploring typography, color, the CSS box model, Flexbox, Grid, and responsive layouts.
 
 ## Live Demo
 
-No live demo is published yet. Open `index.html` locally to view the main exercise.
+No live demo is published yet. Open `index.html` in a browser to view the main exercise.
 
 ## Screenshot
-[My ScreenShot](./images/project%20screenshot.JPG)
+
+![Project screenshot](./images/project%20screenshot.JPG)
 
 ## Features
 
-- CSS typography and color styling exercises
+- Typography and color styling exercises
 - Box model practice
-- Flexbox and Grid layout examples
+- Flexbox and CSS Grid layout examples
 - Additional daily HTML and CSS challenges
 - Responsive layout rules using CSS media queries
 
 ## Technologies Used
 
 - HTML5
-- CSS3 (Flexbox, Grid, custom properties, media queries)
-- Git & GitHub
+- CSS3 (Flexbox, Grid, custom properties, and media queries)
+- Git and GitHub
 
 ## Project Structure
 
 ```text
 iyf-s12-week-02-gitau0076-cpu/
 ├── index.html
+├── about.html
+├── contact.html
+├── project-grid.html
 ├── box-model-practice.html
 ├── flexbox layout.html
-├── grid-picture.html
 ├── style.css
+├── README.md
 ├── images/
+│   ├── bag.jpg
+│   ├── cateye.jpg
+│   ├── Grid.JPG
+│   ├── iconic.jpg
+│   ├── My image.jpeg
+│   ├── nail -1.jpg
+│   ├── nail -2.jpg
+│   ├── perlican.JPG
+│   ├── project screenshot.JPG
+│   └── wispy.jpg
 └── Daily Challenges/
     ├── DAY 1.html
     ├── DAY 2.html
     ├── DAY 3.html
     ├── DAY 4.html
     ├── DAY 5.html
+    ├── flex done.JPG
+    ├── hidden-waterfall-paradise.jpg
     └── style.css
 ```
 
 ## What I Learned
-- CSS Flexbox & Layout Centering. Learned how to use display: flex; along with align-items: center and justify-content: center to position text content cleanly over full-screen backgrounds.
-- HTML Semantic Tags & Links. Learned how to build structured footers using semantic elements (<footer...>, <ul>, <li>, <a>).
-- Responsive Web Design Fundamentals. Started implementing Mobile-First    responsive Design using CSS Grid (display: grid) and grid-template-columns to break content cleanly across screen sizes.
+
+- Using Flexbox properties such as `align-items` and `justify-content` to arrange and center content.
+- Structuring page content and footers with semantic HTML elements and links.
+- Applying a mobile-first approach and using CSS Grid and media queries to adapt layouts to screen sizes.
 
 ## Challenges Faced
 
-- HTML Entity Typos. Typing special characters like &copy; incorrectly
-- HTML Syntax Duplication & Closures. Duplicating text content outside of opening/closing tags
-- Understanding Browser Auto-Detection vs. Anchor Tags. 
-- Confusion over why an email address displayed visual link traits without explicit anchor formatting.
-
+- Correcting HTML entity and markup errors.
+- Keeping opening and closing tags properly paired while editing page content.
+- Understanding when browsers recognize text automatically and when to create explicit links with anchor tags.
 
 ## Future Improvements
 
-- Publish the exercises as a live site
-- Add a project screenshot
-- Refine and verify responsive behavior across the pages
-- Add a dedicated portfolio page to bring the exercises together
+- Publish the exercises as a live site.
+- Refine and verify responsive behavior across all pages.
+- Add a dedicated portfolio page to bring the exercises together.
 
 ## Contact
 
