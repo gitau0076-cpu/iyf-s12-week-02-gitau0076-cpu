@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form></title>
+    <style>
+         a {display: inline-block; padding: 10px 15px;}
+         li{margin-bottom: 8px;}
+         .active { font-weight: bold; text-decoration: underline;}
+</style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+           <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href ="projects.html">Projects</a></li>
+            <li><a href= "contact.html" class="active">Contact</a></li> 
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>Contact Us</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Your Contact Information</legend>
+            <!--Full Name Field-->
+        <p>
+            <label for ="full-name">Full Name:</label><br>
+             <input type="text" id="fullname" name="fullname" placeholder="Florence Gitau" required>
+        </p>
+        <!--Email Field-->
+        <p>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" placeholder="gitau0076@gmail.com" required>
+        </p>
+        <!--Phone Field-->
+        <p>
+            <label for="phone">Phone Number (Optional)</label><br>
+            <input type="tel" id="phone" name="phone" placeholder=" 0708584851">
+        </p>
+        </fieldset>
+        <fieldset>
+            <legend>Message Details</legend>
+            <!--Subject Field-->
+            <p>
+                <label for="subject">Subject:</label><br>
+                <select id="subject" name="subject" required>
+                <option value="" disabled selected>Select an option></option>
+                <option value="general">General Inquiry</option>
+                <option value="support">Technical Support</option>
+                <option value="feedback">Feedback</option>
+                </select>
+            </p>
+            <!--Message Field-->
+            <p>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" minlength="50" placeholder="Hi Jane,hope you're doing well!Just wanted to check in and see how everything is going." required></textarea>
+            </p>
+        </fieldset>
+        <!--Preferences Group-->
+        <fieldset>
+            <legend>Preferences</legend>
+            <p>
+                <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+                <label for="newsletter">Subscribe to our newsletter</label>
+            </p>
+        </fieldset>
+        <!--Submit Button-->
+        <p>
+            <button type="submit">Submit</button>
+            <!--Location & TimeZone-->
+            <section>
+                <h2>Location & Timezone</h2>
+                <p>Based in Nairobi, Kenya (EAT/UTC+3)</p>
+            </section>
+            <!--Social Media Links-->
+            <section>
+                <h3>Connect with me</h3>
+                <ul>
+                    <li><a href="https://github.com/gitau0076-cpu/gitau0076-cpu.github.io">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/florence-gitau-480874358">Linkedin</a></li>
+                </ul>
+            </section>
+        </main>
+        </p>
+    </form>
+</body>
+</html>

@@ -1,28 +1,309 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Typography Test</title>
-    <!--Google Fonts Import-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap">
-    <!--CSS Link-->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <main class="container">
-   <h1>Heading 1: Designer & Developer</h1> 
-   <h2>Heading 2: Featured Projects</h2>
-   <h3>Heading 3: E-Commerce Platform Redesign</h3>
 
-   <p>This is a standard body text using the base size.It is legible, comfortable to read across long paragraphs, and styled with proper line-height for optimal user experience.
-   </p>
-   <p class="text-sm">
-    Small text: Published on October 2026 .
-   </p>
- <small>Footer caption / Copyright notice</small>
+    <meta name="description" content="My personal portfolio showcasing my skills, projects, and web development journey.">
+
+    <title>My Portfolio | Home</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER AND NAVIGATION -->
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">MyPortfolio.</a>
+
+            <!-- Mobile menu checkbox -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+            <label for="menu-toggle" class="menu-icon" aria-label="Toggle navigation menu">
+                ☰
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project-grid.html">Project-grid.html</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="hero-subtitle">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>Hello, I'm <span>Florence</span></h1>
+
+                <h2>Aspiring Web Developer</h2>
+
+                <p>
+                    I am passionate about technology, creativity, and building
+                    beautiful, user-friendly websites. Welcome to my personal
+                    portfolio where I showcase my skills and projects.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="project-grid.html" class="button primary-button">
+                        View My Projects
+                    </a>
+
+                    <a href="contact.html" class="button secondary-button">
+                        Contact Me
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+                <img src="images/My image.jpeg"
+                     alt="Portrait of me">
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT SECTION -->
+        <section class="about section" id="about">
+
+            <div class="section-heading">
+                <p class="section-subtitle">GET TO KNOW ME</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-content">
+
+                <div class="about-text">
+                    <h3>My Journey in Web Development</h3>
+
+                    <p>
+                        My name is Your Name, and I am currently learning
+                        web development. I enjoy creating websites using
+                        HTML and CSS.
+                    </p>
+
+                    <p>
+                        I am developing my skills in semantic HTML,
+                        accessibility, responsive design, Flexbox, and
+                        CSS Grid. My goal is to become a skilled web
+                        developer and create meaningful digital experiences.
+                    </p>
+
+                    <a href="about.html" class="button primary-button">
+                        Learn More
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS SECTION -->
+        <section class="skills section" id="skills">
+
+            <div class="section-heading">
+                <p class="section-subtitle">WHAT I AM LEARNING</p>
+                <h2>My Skills</h2>
+            </div>
+
+            <div class="skills-container">
+
+                <article class="skill-card">
+                    <h3>HTML5</h3>
+                    <p>
+                        Creating structured and semantic web pages
+                        using HTML.
+                    </p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>CSS3</h3>
+                    <p>
+                        Styling websites using colors, typography,
+                        spacing, and layouts.
+                    </p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Responsive Design</h3>
+                    <p>
+                        Building websites that work on mobile,
+                        tablet, and desktop devices.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- FEATURED PROJECTS SECTION -->
+        <section class="projects section" id="projects">
+
+            <div class="section-heading">
+                <p class="section-subtitle">MY RECENT WORK</p>
+                <h2>Featured Projects</h2>
+            </div>
+
+            <div class="projects-container">
+
+                <article class="project-card">
+
+                    <img src="images/Grid.JPG"
+                         alt="Screenshot of my first website">
+
+                    <div class="project-content">
+                        <h3>Personal Portfolio</h3>
+
+                        <p>
+                            A personal website created using semantic
+                            HTML and CSS to showcase my skills.
+                        </p>
+
+                        <a href="projects.html" class="button primary-button">
+                            View Project
+                        </a>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <img src="images/cateye.jpg"
+                         alt="Screenshot of my second project">
+
+                    <div class="project-content">
+                        <h3>Landing Page</h3>
+
+                        <p>
+                            A simple and attractive landing page
+                            designed using HTML and CSS.
+                        </p>
+
+                        <a href="project-grid.html" class="button primary-button">
+                            View Project
+                        </a>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <img src="images/perlican.JPG"
+                         alt="Screenshot of my third project">
+
+                    <div class="project-content">
+                        <h3>Contact Form</h3>
+
+                        <p>
+                            A user-friendly contact form with
+                            accessible HTML form elements.
+                        </p>
+
+                        <a href="project-grid.html" class="button primary-button">
+                            View Project
+                        </a>
+                    </div>
+
+                </article>
+
+            </div>
+
+            <div class="view-all">
+                <a href="project-grid.html" class="button secondary-button">
+                    View All Projects
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT CALL TO ACTION -->
+        <section class="contact-cta section">
+
+            <h2>Let's Work Together!</h2>
+
+            <p>
+                Have a project or opportunity in mind?
+                I would love to hear from you.
+            </p>
+
+            <a href="contact.html" class="button primary-button">
+                Get In Touch
+            </a>
+
+        </section>
+
     </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-column">
+                <h3>MyPortfolio.</h3>
+                <p>
+                    Learning, creating, and growing
+                    through web development.
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="project-grid.html">Project-grid.html</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Connect With Me</h3>
+
+                <ul>
+                    <li><a href="https://github.com/gitau0076-cpu">GitHub</a></li>
+                    <li><a href="mailto:gitau0076@gmail.com">Email</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>
+                &copy; 2026 Florence. All Rights Reserved.
+            </p>
+        </div>
+
+    </footer>
+
 </body>
 </html>
