@@ -3,12 +3,11 @@
 A collection of HTML and CSS exercises exploring typography, color, the CSS box model, Flexbox, Grid, and responsive layouts.
 
 ## Live Demo
-
-No live demo is published yet. Open `index.html` in a browser to view the main exercise.
+[My live page](http://127.0.0.1:5500/index.html)
 
 ## Screenshot
 
-![Project screenshot](./images/project%20screenshot.JPG)
+[Project screenshot](./images/projectscreenshot.JPG)
 
 ## Features
 
